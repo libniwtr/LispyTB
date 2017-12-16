@@ -51,8 +51,11 @@ The lisp-style code:
         (else
          (begin
           (set! Color2 "green")
-          (set! Text "You are lucky!")))))```
+          (set! Text "You are lucky!")))))
+
+```
 Would compile to: (I manually indented them)
+
 ```php
 var myZ("this is note "+$Name+$Text);
 var myX(1*2*3*3+4+5);
